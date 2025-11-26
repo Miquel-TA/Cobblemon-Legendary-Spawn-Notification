@@ -37,8 +37,8 @@ public abstract class CobgymsPokemonUtilsMixin {
 
         if (!cobblemon$cobgymsLogged) {
             Cobblemon.LOGGER.warn(
-                    "Applied CobGyms compatibility shim: redirected PokemonSpecies#getByIdentifier for {}."
-                            + " If you no longer use CobGyms, this log can be removed by deleting this mod.",
+                    "Applied CobGyms compatibility shim for {}: redirected PokemonSpecies#getByIdentifier invoked from CobGyms."
+                            + " Other mods calling the static method are unaffected.",
                     identifier
             );
             cobblemon$cobgymsLogged = true;
