@@ -1,0 +1,46 @@
+{
+  "portraitScale": 1.63,
+  "portraitTranslation": [-0.25, 0.44, 0],
+  "profileScale": 0.62,
+  "profileTranslation": [-0.03, 0.83, 0],
+  "rootBone": "croagunk",
+  "animations": {
+    "cry": "q.bedrock_stateful('croagunk', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 0, 0)",
+        "q.bedrock('croagunk', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('croagunk', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head' )",
+        "q.bedrock('croagunk', 'ground_idle')",
+        "q.biped_walk(0.45, 0.66, 'leg_left1', 'leg_right1')",
+        "q.bimanual_swing(0.45, 1, 'arm_left', 'arm_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('croagunk', 'blink')"
+      ]
+    }
+  }
+}
+   
+   
+   

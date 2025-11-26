@@ -1,0 +1,66 @@
+{
+  "portraitScale": 1.43,
+  "portraitTranslation": [-0.45, 1.21, 0],
+  "profileScale": 0.59,
+  "profileTranslation": [0, 0.84, 0],
+  "rootBone": "toxicroak",
+  "animations": {
+    "cry": "q.bedrock_stateful('toxicroak', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 0.3, 0.3)",
+        "q.look('throat_sack', 0.3, 0.3)",
+        "q.look('neck', 0.2, 0.2)",
+        "q.look('torso3', 0.5, 0.5)",
+        "q.bedrock('toxicroak', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('toxicroak', 'blink')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head', 0.3, 0.3)",
+        "q.look('throat_sack', 0.3, 0.3)",
+        "q.look('neck', 0.2, 0.2)",
+        "q.look('torso3', 0.5, 0.5)",
+        "q.bedrock('toxicroak', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('toxicroak', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head', 0.3, 0.3)",
+        "q.look('throat_sack', 0.3, 0.3)",
+        "q.look('neck', 0.2, 0.2)",
+        "q.look('torso3', 0.5, 0.5)",
+        "q.bedrock('toxicroak', 'ground_idle')",
+        "q.biped_walk(0.45, 0.66, 'leg_left', 'leg_right')",
+        "q.bimanual_swing(0.45, 1, 'shoulder_left', 'shoulder_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('toxicroak', 'blink')"
+      ]
+    }
+  }
+}

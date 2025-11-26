@@ -1,0 +1,195 @@
+{
+  "rootBone": "wailord",
+  "portraitScale": 0.45,
+  "portraitTranslation": [-0.38, 0.8, 6.69],
+  "profileScale": 0.25,
+  "profileTranslation": [0, 1.2, -10],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0],
+    "seat_2": [0, 0.45, 0],
+    "seat_3": [0, 0.45, 0],
+    "seat_4": [0, 0.45, 0],
+    "seat_5": [0, 0.45, 0],
+    "seat_6": [0, 0.45, 0],
+    "seat_7": [0, 0.45, 0],
+    "seat_8": [0, 0.45, 0],
+    "seat_9": [0, 0.45, 0],
+    "seat_10": [0, 0.45, 0],
+    "seat_11": [0, 0.45, 0],
+    "seat_12": [0, 0.45, 0],
+    "seat_13": [0, 0.45, 0],
+    "seat_14": [0, 0.45, 0],
+    "seat_15": [0, 0.45, 0],
+    "seat_16": [0, 0.45, 0],
+    "seat_17": [0, 0.45, 0],
+    "seat_18": [0, 0.45, 0],
+    "seat_19": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 1, 1],
+    "seat_1_reverse": [0, 1, 1],
+    "seat_2": [0, 1, 1],
+    "seat_2_reverse": [0, 1, 1],
+    "seat_3": [0, 1, 1],
+    "seat_3_reverse": [0, 1, 1],
+    "seat_4": [0, 1, 1],
+    "seat_4_reverse": [0, 1, 1],
+    "seat_5": [0, 1, 1],
+    "seat_5_reverse": [0, 1, 1],
+    "seat_6": [0, 1, 1],
+    "seat_6_reverse": [0, 1, 1],
+    "seat_7": [0, 1, 1],
+    "seat_7_reverse": [0, 1, 1],
+    "seat_8": [0, 1, 1],
+    "seat_8_reverse": [0, 1, 1],
+    "seat_9": [0, 1, 1],
+    "seat_9_reverse": [0, 1, 1],
+    "seat_10": [0, 1, 1],
+    "seat_10_reverse": [0, 1, 1],
+    "seat_11": [0, 1, 1],
+    "seat_11_reverse": [0, 1, 1],
+    "seat_12": [0, 1, 1],
+    "seat_12_reverse": [0, 1, 1],
+    "seat_13": [0, 1, 1],
+    "seat_13_reverse": [0, 1, 1],
+    "seat_14": [0, 1, 1],
+    "seat_14_reverse": [0, 1, 1],
+    "seat_15": [0, 1, 1],
+    "seat_15_reverse": [0, 1, 1],
+    "seat_16": [0, 1, 1],
+    "seat_16_reverse": [0, 1, 1],
+    "seat_17": [0, 1, 1],
+    "seat_17_reverse": [0, 1, 1],
+    "seat_18": [0, 1, 1],
+    "seat_18_reverse": [0, 1, 1],
+    "seat_19": [0, 1, 1],
+    "seat_19_reverse": [0, 1, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 1, 1],
+    "seat_1_reverse": [0, 1, 1],
+    "seat_2": [0, 1, 1],
+    "seat_2_reverse": [0, 1, 1],
+    "seat_3": [0, 1, 1],
+    "seat_3_reverse": [0, 1, 1],
+    "seat_4": [0, 1, 1],
+    "seat_4_reverse": [0, 1, 1],
+    "seat_5": [0, 1, 1],
+    "seat_5_reverse": [0, 1, 1],
+    "seat_6": [0, 1, 1],
+    "seat_6_reverse": [0, 1, 1],
+    "seat_7": [0, 1, 1],
+    "seat_7_reverse": [0, 1, 1],
+    "seat_8": [0, 1, 1],
+    "seat_8_reverse": [0, 1, 1],
+    "seat_9": [0, 1, 1],
+    "seat_9_reverse": [0, 1, 1],
+    "seat_10": [0, 1, 1],
+    "seat_10_reverse": [0, 1, 1],
+    "seat_11": [0, 1, 1],
+    "seat_11_reverse": [0, 1, 1],
+    "seat_12": [0, 1, 1],
+    "seat_12_reverse": [0, 1, 1],
+    "seat_13": [0, 1, 1],
+    "seat_13_reverse": [0, 1, 1],
+    "seat_14": [0, 1, 1],
+    "seat_14_reverse": [0, 1, 1],
+    "seat_15": [0, 1, 1],
+    "seat_15_reverse": [0, 1, 1],
+    "seat_16": [0, 1, 1],
+    "seat_16_reverse": [0, 1, 1],
+    "seat_17": [0, 1, 1],
+    "seat_17_reverse": [0, 1, 1],
+    "seat_18": [0, 1, 1],
+    "seat_18_reverse": [0, 1, 1],
+    "seat_19": [0, 1, 1],
+    "seat_19_reverse": [0, 1, 1]
+  },
+    "animations": {
+      "faint": "q.bedrock_primary('wailord', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('wailord', 'cry')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.bedrock('wailord', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('wailord', 'blink')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "isTouchingWater": false,
+        "condition": "q.has_entity ? !q.in_air : 1.0",
+        "animations": [
+          "q.bedrock('wailord', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('wailord', 'blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "isTouchingWater": false,
+        "animations": [
+          "q.bedrock('wailord', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('wailord', 'blink')"]
+      },
+      "float": {
+        "poseTypes": ["FLOAT"],
+        "isTouchingWater": true,
+        "isUnderWater": true,
+        "animations": [
+          "q.bedrock('wailord', 'water_idle')"
+        ],
+        "namedAnimations": {
+          "faint": "q.bedrock_primary('wailord', 'faint_water', q.curve('one'))"
+        },
+        "quirks": ["q.bedrock_quirk('wailord', 'blink')"]
+      },
+      "surface-float": {
+        "poseTypes": ["STAND", "FLOAT"],
+        "isTouchingWater": true,
+        "isUnderWater": false,
+        "animations": [
+          "q.bedrock('wailord', 'water_idle')"
+        ],
+        "namedAnimations": {
+          "faint": "q.bedrock_primary('wailord', 'faint_water', q.curve('one'))"
+        },
+        "quirks": ["q.bedrock_quirk('wailord', 'blink')"]
+      },
+      "swim": {
+        "poseTypes": ["SWIM"],
+        "isTouchingWater": true,
+        "isUnderWater": true,
+        "animations": [
+          "q.bedrock('wailord', 'water_swim')"
+        ],
+        "quirks": ["q.bedrock_quirk('wailord', 'blink')"]
+      },
+      "surface-swim": {
+        "poseTypes": ["WALK", "SWIM"],
+        "isTouchingWater": true,
+        "isUnderWater": false,
+        "animations": [
+          "q.bedrock('wailord', 'water_swim')"
+        ],
+        "quirks": ["q.bedrock_quirk('wailord', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+          "animations": [
+          "q.bedrock('wailord', 'sleep')"
+        ]
+      }
+    }
+  }

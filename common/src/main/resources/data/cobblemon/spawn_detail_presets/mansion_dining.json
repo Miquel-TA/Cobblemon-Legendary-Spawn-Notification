@@ -1,0 +1,24 @@
+{
+  "condition": {
+	"structures": [
+	  "minecraft:woodland_mansion/1x1_b2",
+	  "minecraft:woodland_mansion/1x2_c1",
+	  "minecraft:woodland_mansion/2x2_b1",
+	  "minecraft:woodland_mansion/2x2_b2"
+    ],
+	"minY": 62,
+	"neededBaseBlocks": [
+	  "minecraft:birch_planks",
+	  "minecraft:double_smooth_stone_slab",
+	  "minecraft:oak_planks",
+	  "minecraft:polished_andesite",
+	  "#minecraft:wool",
+	  "#minecraft:wool_carpets"
+	],
+	"neededNearbyBlocks": [
+	  "minecraft:light_grey_carpet",
+	  "minecraft:magenta_carpet",
+	  "minecraft:white_carpet"
+	]
+  }
+}

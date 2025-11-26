@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "adorn:cobblemon/apricorn_table", "required": false }
+  ]
+}
