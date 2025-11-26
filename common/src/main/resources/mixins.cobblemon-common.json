@@ -103,6 +103,7 @@
     "invoker.BooleanRuleInvoker",
     "invoker.DoorBlockInvoker",
     "invoker.FireBlockInvoker",
+    "compatibility.CobgymsPokemonUtilsMixin",
     "invoker.PressurePlateBlockInvoker",
     "invoker.StairsBlockInvoker",
     "invoker.TrapdoorBlockInvoker",
