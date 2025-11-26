@@ -1,0 +1,186 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.croagunk.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [15, 0, 0]
+				},
+				"torso2": {
+					"rotation": [12.5, 0, 0]
+				},
+				"arm_left": {
+					"rotation": [34.02303, 37.01211, 53.05604]
+				},
+				"arm_left2": {
+					"rotation": [19.19106, 25.34074, -3.61526]
+				},
+				"hand_left": {
+					"rotation": [6.36341, -4.57838, 19.09316]
+				},
+				"finger_front_left1": {
+					"rotation": [1.63219, 4.82123, 12.60443]
+				},
+				"finger_front_left2": {
+					"rotation": [0, 0, 27.5]
+				},
+				"finger_back_left1": {
+					"rotation": [-2.61298, -7.15594, 15.22074]
+				},
+				"finger_back_left2": {
+					"rotation": [0, 0, 27.5]
+				},
+				"finger_middle_left1": {
+					"rotation": [0, 0, 10]
+				},
+				"finger_middle_left2": {
+					"rotation": [0, 0, 27.5]
+				},
+				"head": {
+					"rotation": [-27.5, 0, 0]
+				},
+				"leg_left1": {
+					"rotation": [40, -30, 0]
+				},
+				"foot_left": {
+					"rotation": [-30, 0, 0],
+					"position": [0, 0.1, 0]
+				},
+				"toes_left": {
+					"rotation": [-10, 0, 0]
+				},
+				"arm_right": {
+					"rotation": [34.02303, -37.01211, -53.05604]
+				},
+				"arm_right2": {
+					"rotation": [19.19106, -25.34074, 3.61526]
+				},
+				"hand_right": {
+					"rotation": [6.36341, 4.57838, -19.09316]
+				},
+				"finger_front_right1": {
+					"rotation": [1.63219, -4.82123, -12.60443]
+				},
+				"finger_front_right2": {
+					"rotation": [0, 0, -27.5]
+				},
+				"finger_back_right1": {
+					"rotation": [-2.61298, 7.15594, -15.22074]
+				},
+				"finger_back_right2": {
+					"rotation": [0, 0, -27.5]
+				},
+				"finger_middle_right1": {
+					"rotation": [0, 0, -10]
+				},
+				"finger_middle_right2": {
+					"rotation": [0, 0, -27.5]
+				},
+				"leg_right1": {
+					"rotation": [40, 30, 0]
+				},
+				"foot_right": {
+					"rotation": [-30, 0, 0],
+					"position": [0, 0.1, 0]
+				},
+				"toes_right": {
+					"rotation": [-10, 0, 0]
+				}
+			}
+		},
+		"animation.croagunk.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0.1, 0, -0.1],
+						"0.12": [0.1, 0, -0.1],
+						"0.16": [0, 0, 0]
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [-0.1, 0, -0.1],
+						"0.12": [-0.1, 0, -0.1],
+						"0.16": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.croagunk.cry": {
+			"animation_length": 1,
+			"bones": {
+				"mouth_closed_teeth": {
+					"position": {
+						"0.0417": [0, 0, 0],
+						"0.0833": {"pre": [0, 0, 0], "post": [0, 0, 0.1]},
+						"0.9167": {"pre": [0, 0, 0.1], "post": [0, 0, 0.1]},
+						"0.9583": {"pre": [0, 0, 0.1], "post": [0, 0, 0]}
+					}
+				},
+				"mouth_open": {
+					"position": {
+						"0.0417": [0, 0, 0],
+						"0.0833": {"pre": [0, 0, 0], "post": [0, 0, -0.1]},
+						"0.9167": {"pre": [0, 0, -0.1], "post": [0, 0, -0.1]},
+						"0.9583": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0417": {
+					"effect": "pokemon.croagunk.cry"
+				},
+				"0.25": {
+					"effect": "pokemon.smeargle.cry"
+				}
+			}
+		},
+		"animation.croagunk.cheek_inflate": {
+			"animation_length": 1,
+			"bones": {
+				"cheek_inflated_left": {
+					"position": {
+						"0.0": [3, 0, 0],
+						"1.0": [3, 0, 0]
+					},
+					"scale": {
+						"0.0": {
+							"post": [0, 0.8, 0.8],
+							"lerp_mode": "catmullrom"
+						},
+						"0.16": {
+							"post": [0.525, 0.95, 0.95],
+							"lerp_mode": "catmullrom"
+						},
+						"0.32": {
+							"post": [0.9, 0.9772, 0.9772],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"cheek_inflated_right": {
+					"position": {
+						"0.0": [-3, 0, 0],
+						"1.0": [-3, 0, 0]
+					},
+					"scale": {
+						"0.0": {
+							"post": [0, 0.8, 0.8],
+							"lerp_mode": "catmullrom"
+						},
+						"0.16": {
+							"post": [0.525, 0.95, 0.95],
+							"lerp_mode": "catmullrom"
+						},
+						"0.32": {
+							"post": [0.9, 0.9772, 0.9772],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		}
+	}
+}
