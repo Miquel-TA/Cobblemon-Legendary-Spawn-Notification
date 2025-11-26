@@ -131,6 +131,12 @@ class CobblemonConfig {
     @CobblemonConfigField(Category.Spawning, lang = "save_pokemon_to_world", SERVER)
     var savePokemonToWorld = true
 
+    @CobblemonConfigField(Category.Spawning, lang = "announce_pokemon_coordinates", SERVER)
+    var announcePokemonCoordinates = false
+
+    @CobblemonConfigField(Category.Spawning, lang = "announce_all_pokemon_spawns", SERVER)
+    var announceAllPokemonSpawns = false
+
     @CobblemonConfigField(Category.Starter, lang = "export_starter_config", SERVER)
     var exportStarterConfig = false
 
